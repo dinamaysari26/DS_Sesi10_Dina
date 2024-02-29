@@ -1,0 +1,19 @@
+{
+  "name": "DS_Sesi10_Dina",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^8.32.2",
+    "@wdio/cucumber-framework": "^8.32.3",
+    "@wdio/devtools-service": "^8.32.3",
+    "@wdio/local-runner": "^8.32.3",
+    "@wdio/visual-service": "^3.1.0",
+    "dotenv": "^16.4.5"
+  },
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.js",
+    "gen-allure": "./node_modules/.bin/allure generate allure-results/ --clean",
+    "open-allure": "./node_modules/.bin/allure open"
+  },
+  "dependencies": {
+    "npm": "^10.4.0"
+  }
+}
